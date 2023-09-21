@@ -1,16 +1,16 @@
 
-# Leer la cantidad de elementos en la lista
 N = int(input())
 
-# Leer la lista de enteros
 A = list(map(int, input().split()))
 
-# Inicializar la suma de los valores absolutos
-sum_abs = 0
+numero_cercano = A[0] 
+distancia_cercana = abs(A[0])
 
-# Calcular la suma de los valores absolutos de los elementos
-for num in A:
-    sum_abs += num
+for numero in A:
+    distancia_actual = abs(numero)
+    if distancia_actual < distancia_cercana:
+        distancia_cercana = distancia_actual
+        numero_cercano = numero
 
-# Imprimir la suma como resultado
-print(sum_abs)
+print(numero_cercano)
+
