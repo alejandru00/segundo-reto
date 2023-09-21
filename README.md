@@ -1,69 +1,125 @@
 # Segundo reto
 
-A. Dos envases
-Problema
+## Usuario: alejandru00
+
+## Link:
+[Github: ]
+
+-------------------------------------------
+
+## A. Dos envases
+
+#### Problema
+
 Tienes dos recipientes con agua. El primer recipiente contiene a litros de agua, y el segundo
 recipiente contiene b litros de agua. Ambos recipientes son muy grandes y pueden contener
 cualquier cantidad de agua.
+
 También tienes una taza vacía que puede contener hasta c litros de agua.
+
 En un movimiento, puedes recoger hasta c litros de agua de cualquier recipiente y verterlo
 en el otro recipiente. Ten en cuenta que la masa de agua vertida en un movimiento no tiene
 que ser un número entero.
+
 ¿Cuál es el número mínimo de movimientos requeridos para igualar las masas de agua en
 los recipientes? Ten en cuenta que no puedes realizar ninguna otra acción que no sean los
 movimientos descritos.
-Entrada
+
+##### Entrada
+
 Cada prueba contiene múltiples casos de prueba. La primera línea contiene el número de
 casos de prueba t (1≤t≤1000). La descripción de los casos de prueba sigue a continuación.
 Cada caso de prueba consta de una sola línea que contiene tres enteros a, b y c
 (1≤a,b,c≤100) — la masa de agua en los recipientes y la capacidad de la taza,
 respectivamente.
-Salida
+
+##### Salida
+
 Para cada caso de prueba, imprime un solo número: el número mínimo de movimientos
 requeridos para igualar las masas de agua en los recipientes. Se puede demostrar que
 siempre es posible.
-Ejemplo
+
+#### Ejemplo
+
 entrada
+
 6
+
 3 7 2
+
 17 4 3
+
 17 17 1
+
 17 21 100
+
 1 100 1
+
 97 4 3
+
 salida
+
 1
+
 3
+
 0
+
 1
+
 50
+
 16
-B. Niña ambiciosa
-Problema
+
+
+--------------------------------
+
+## B. Niña ambiciosa
+
+#### Problema
+
 María, la hija de Enrique, es una niña ambiciosa, así que Enrique le da el siguiente
 problema para poner a prueba su ambición.
+
 Dado un conjunto de enteros [A1, A2, A3, ..., AN]. En una operación, Chaneka puede elegir
 un elemento y luego aumentar o disminuir el valor del elemento en 1. Chaneka puede
 realizar esa operación varias veces, incluso para diferentes elementos.
+
 ¿Cuál es el número mínimo de operaciones que deben realizarse para que se cumpla que
 A1×A2×A3×...×AN=0?
-Entrada
+
+##### Entrada
+
 La primera línea contiene un solo entero N (1≤N≤105).
+
 La segunda línea contiene N enteros A1, A2, A3, ..., AN (−105≤Ai≤105).
-Salida
+
+##### Salida
+
 Para cada caso de prueba, imprime un solo número: el número mínimo de movimientos
 requeridos para igualar las masas de agua en los recipientes. Se puede demostrar que
 siempre es posible.
-Ejemplos
+
+#### Ejemplos
+
 entrada
+
 3
+
 2 -6 5
+
 salida
+
 2
+
 entrada
+
 1
+
 -3
+
 salida
+
 3
 
 -------------------------------
